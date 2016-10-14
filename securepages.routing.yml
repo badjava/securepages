@@ -1,0 +1,7 @@
+securepages.admin_settings:
+  path: '/admin/config/system/securepages'
+  defaults:
+    _form: '\Drupal\securepages\Form\SecurepagesSettingsForm'
+    _title: 'Secure Pages configuration'
+  requirements:
+    _permission: 'administer site configuration'
